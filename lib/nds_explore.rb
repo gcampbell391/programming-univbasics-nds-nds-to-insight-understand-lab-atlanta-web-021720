@@ -10,5 +10,9 @@ end
 def print_first_directors_movie_titles
 nds = []
 nds = directors_database
-p nds
+row_index = 0
+while row_index < nds.length do
+if nds[]
+end
+row_index += 1
 end
