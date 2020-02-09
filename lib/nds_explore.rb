@@ -10,10 +10,5 @@ end
 def print_first_directors_movie_titles
 nds = []
 nds = directors_database
-row_index = 0
-while row_index < nds.length do
-if nds[row_index] === "Stephen Spielberg"
-  p nds[row_index]
-end
-row_index += 1
+p nds[1]
 end
