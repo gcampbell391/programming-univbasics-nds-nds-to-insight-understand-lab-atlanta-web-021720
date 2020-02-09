@@ -12,7 +12,8 @@ nds = []
 nds = directors_database
 row_index = 0
 while row_index < nds.length do
-if nds[]
+if nds[:name] === "Stephen Spielberg"
+  p 
 end
 row_index += 1
 end
