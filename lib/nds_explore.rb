@@ -16,5 +16,5 @@ counter = 0
   results << nds[0][:movies][counter]
   counter += 1
   end 
-p results[2]
+p results[0]
 end
