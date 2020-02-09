@@ -13,8 +13,9 @@ nds = directors_database
 results = []
 counter = 0
   if counter < 5
-  results << nds[0][:movies][counter]
+    p "Hi"
+  #p nds[0][:movies][counter]
   counter += 1
   end 
-p results[0]
+
 end
