@@ -13,8 +13,7 @@ nds = directors_database
 results = []
 counter = 0
   while counter < 5 do
-    p "Hi"
-  #p nds[0][:movies][counter]
+  p nds[0][:movies][counter][:titles]
   counter += 1
   end 
 
