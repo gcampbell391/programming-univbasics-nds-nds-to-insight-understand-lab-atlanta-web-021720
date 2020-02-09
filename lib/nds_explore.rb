@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
 nds = []
 nds = directors_database
 results = []
-counter = 3
+counter = 0
   if counter < 5
   results << nds[0][:movies][counter]
   counter += 1
