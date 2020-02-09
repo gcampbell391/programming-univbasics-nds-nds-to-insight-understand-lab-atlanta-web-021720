@@ -13,7 +13,7 @@ nds = directors_database
 results = []
 count = 0
   if count < 5
-  results << nds[0][:movies][count][:title]
+  results << nds[0][:movies][count]
   count += 1
   end 
 p results
