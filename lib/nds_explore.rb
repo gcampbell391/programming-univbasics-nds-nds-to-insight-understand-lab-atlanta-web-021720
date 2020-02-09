@@ -12,5 +12,5 @@ nds = []
 nds = directors_database
 count = 0
 if count < 6
-p nds[0][:movies][count][:title]
+p nds[0][:movies][count][:title]"/n"
 end
