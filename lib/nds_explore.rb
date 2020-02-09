@@ -10,5 +10,5 @@ end
 def print_first_directors_movie_titles
 nds = []
 nds = directors_database
-p nds[1]
+p nds[0]
 end
