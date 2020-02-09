@@ -12,7 +12,7 @@ nds = []
 nds = directors_database
 row_index = 0
 while row_index < nds.length
-p nds[0][:movies][#{row_index}][:title]
+p nds[0][:movies][row_index][:title]
 end
 row_index += 1
 end
